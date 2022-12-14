@@ -1,0 +1,51 @@
+.one {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 7rem;
+  border: 1px solid rgb(3, 3, 3);
+  margin: 2rem;
+  border-color: rgb(197, 173, 173);
+  position: relative;
+  border-radius: 9px;
+}
+.one input,
+textarea {
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+  color: rgba(124, 113, 92, 0.906);
+  background-color: rgb(245, 240, 245);
+}
+.one input {
+  font-size: 17px;
+  font-weight: 550;
+}
+.one button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px;
+  margin: 0.3rem;
+}
+.big {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+}
+@media screen and (max-width: 600px) {
+  .big {
+    grid-template-columns: 1fr;
+  }
+  .one {
+    width: 87%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .big {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .one {
+    width: 50%;
+  }
+}

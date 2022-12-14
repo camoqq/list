@@ -1,0 +1,10 @@
+.rec {
+  background-color: rgba(0, 0, 0, 0.557);
+  width: 100%;
+  height: 5rem;
+  text-align: left;
+}
+.rec h1 {
+  color: rgb(197, 173, 173);
+  padding: 1rem;
+}

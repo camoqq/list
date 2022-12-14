@@ -1,0 +1,26 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 7rem;
+  border: 1px solid rgb(3, 3, 3);
+  margin: 2rem;
+  border-radius: 4px;
+  position: relative;
+  border-color: rgb(197, 173, 173);
+  background-color: rgb(245, 240, 245);
+}
+.note h3,
+p {
+  padding: 0.4rem;
+  color: rgba(124, 113, 92, 0.906);
+}
+
+.note button {
+  width: 4rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px;
+  margin: 0.3rem;
+}
